@@ -15,6 +15,6 @@ jobs:
             - vendor
       - run: npm ci
       - run: npm run dev
-      - run: npm ci
+      - run:
           name: php test
           command: vendor/bin/phpunit
